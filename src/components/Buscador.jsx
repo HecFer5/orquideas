@@ -4,11 +4,10 @@ import { Buscar, LogoFlor } from './icons'
 
 const Buscador = () => {
     return (
-        <> 
-            <h3 className='titulo'>Listado de especies de orquideas</h3>
-           
+        <>
+
             <section className='container-buscar'>
-                <input type="text" placeholder='Agregar nombre de la especie' className='input-buscar' />
+                <input type="text" placeholder='Ingrese la búsqueda' className='input-buscar' />
                 <button className='btn-buscar'>
                     <Buscar />
                     Buscar

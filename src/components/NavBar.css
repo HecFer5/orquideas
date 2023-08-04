@@ -7,42 +7,28 @@ nav {
   box-shadow: 4px 4px 8px #00000020;
 }
 nav > svg {
-  height: 4rem;
+  height: 5rem;
   width: auto;
 }
-nav h1{
-  color: rgb(166, 177, 187);
-}
-.switch {
+.opciones-barra{
   display: flex;
-  align-items: center;
-  gap: 10px;
+  gap: 70px;
+  justify-content: space-between;
+  height: 10vh;
+  
 }
-.switch > svg {
-  height: 1.5rem;
-  width: auto;
-}
-
-.switch > label {
-  background-color: #ccc;
-  width: 4rem;
-  height: 1.5rem;
-  border-radius: 1rem;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  padding: 2px;
+.opciones{
+  color:aliceblue;
+  font-size: 2.5rem;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 15px;
+  cursor:pointer;
 }
 
-.slider {
-  width: 1.5rem;
-  height: 1.5rem;
-  border-radius: 1.5rem;
-  background-color: white;
-  transition: .5s;
+.opciones:hover{
+  color: burlywood;
+transform: scale(1.3);
+transition: all .2s;
 }
-
-.check-switch:checked + .slider {
-  transform: translateX(2.5rem);
-}
-
