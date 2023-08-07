@@ -1,17 +1,19 @@
 import React from 'react'
-import { LogoFlor } from './icons'
-import './NavBar.css'
+// import { LogoFlor } from './icons'
+import './Estilos/NavBar.css'
 import { Link } from 'react-router-dom'
 import Buscador from './Buscador'
 
 const NavBar = () => {
     return (
         <nav>
-            <LogoFlor />
+            {/* <LogoFlor /> */}
             <div className='opciones-barra' >
                 <Link className='opciones' to='/cards' >Cards</Link>
                 <Link className='opciones' to='/ingresos' >Ingresos</Link>
                 <Link className='opciones' to='/agenda' >Agenda</Link>
+                <Link className='opciones' to='/*' >v</Link>
+
             </div>
             <Buscador/>
         </nav>

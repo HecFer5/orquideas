@@ -1,5 +1,5 @@
 import React from 'react'
-import './Buscador.css'
+import './Estilos/Buscador.css'
 import { Buscar, LogoFlor } from './icons'
 
 const Buscador = () => {

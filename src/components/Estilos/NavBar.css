@@ -5,6 +5,10 @@ nav {
   align-items: center;
   padding: 1.5rem 0;
   box-shadow: 4px 4px 8px #00000020;
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 nav > svg {
   height: 5rem;
@@ -25,6 +29,7 @@ nav > svg {
   text-decoration: none;
   padding: 15px;
   cursor:pointer;
+  z-index: 1;
 }
 
 .opciones:hover{

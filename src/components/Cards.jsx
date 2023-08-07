@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import './Cards.css'
+import './Estilos/Cards.css'
 
 function Cards() {
   return (
