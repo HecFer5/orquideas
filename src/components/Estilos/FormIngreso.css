@@ -1,0 +1,59 @@
+
+
+form{
+    height: 100%;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    background-color: aqua;
+    width: 75%;
+    margin: auto;
+    
+}
+
+ .titulo-ingreso{
+    font-size: 1.5rem;
+    margin-left: 150px;
+    padding: 10px;
+}
+.campo{
+    text-align: left;
+    border: 1px solid black;
+    background-color:aqua;
+    padding: 0 .5rem;
+    height: 7vh;
+    color: black;
+    font-size: 3vh;
+    width: 50%;
+    
+
+}
+.etiqueta{
+    background-color: rgb(255, 72, 0);
+    width: 50%;
+    height: 7vh;
+    color:aliceblue
+}
+
+.btn{
+    width: 5rem;
+    aspect-ratio: 2/1;
+    border-radius: 10px;
+    border: none;
+    color: aliceblue;
+    margin: 0 10px 0 10px;
+}
+
+.btn.ing{
+    background-color: rgb(17, 0, 255);
+
+}
+.btn.del{
+    background-color: red;
+}
+
+.cont-btn{
+    align-content: center;
+   
+}

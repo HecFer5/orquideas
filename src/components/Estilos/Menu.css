@@ -1,0 +1,77 @@
+.container-menu {
+  display: grid;
+  justify-content: left;
+  grid-template-columns: repeat(2, 0.37fr);
+  grid-template-rows: repeat(2, 0.35fr);
+  width: 100vw;
+  height: 100vh;
+  padding: 50px;
+  background-image: url("../Imagenes/orquideas4.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+  align-items: center;
+  align-content: center;
+}
+
+.orquideas-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f2f2f2a2;
+  border-radius: 0px;
+  padding: 15px;
+  box-shadow: 4px 4px 4px #13121220;
+  transition: 0.3s;
+  height: 230px;
+  width: 450px;
+}
+.uno {
+  background-image: url("../Imagenes/oprquideas2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: inherit;
+}
+
+.dos {
+  background-color: rgb(202, 114, 114);
+  justify-content: left;
+  align-items: center;
+}
+
+.dos:hover {
+  background-color: rgb(243, 160, 160);
+  transform: scale(1.05);
+  border-radius: 10px;
+}
+.tres {
+  background-color: rgb(132, 193, 196);
+  justify-content: left;
+  align-items: center;
+}
+
+.opcion {
+  color: aliceblue;
+  background-color: rgba(9, 20, 20, 0);
+  font-weight: 600;
+  padding: 4px 8px;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.opcion:hover {
+  color: rgb(12, 11, 11);
+}
+.tres:hover {
+  background-color: rgb(146, 224, 228);
+  transform: scale(1.05);
+  border-radius: 10px;
+}
+.cuatro {
+  background-image: url("../Imagenes/orquideas3.jfif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: inherit;
+}
