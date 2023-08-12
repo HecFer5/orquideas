@@ -1,8 +1,9 @@
 import React from 'react'
+import '../Estilos/Tareas.css'
 
 const Tareas = () => {
   return (
-    <div>Tareas</div>
+    <h1>Tareas</h1>
   )
 }
 

@@ -1,59 +1,72 @@
+.form-ingreso {
+  height: 30%;
+  padding: 200px 45px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  background-color: aqua;
+  width: 45%;
+  margin-left: 50px;
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.774) 0px 5px 25px;}
 
-
-form{
-    height: 100%;
-    padding: 1.5rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-    background-color: aqua;
-    width: 75%;
-    margin: auto;
-    
+.titulo-ingreso {
+  font-size: 1.5rem;
+  margin-left: 150px;
+  padding: 10px;
+}
+.campo {
+  text-align: left;
+  border: 1px solid black;
+  background-color: aqua;
+  padding: 0 0.5rem;
+  height: 4vh;
+  color: black;
+  font-size: 3vh;
+  width: 50%;
+}
+.etiqueta {
+  background-color: rgb(255, 72, 0);
+  width: 20%;
+  height: 4vh;
+  color: aliceblue;
 }
 
- .titulo-ingreso{
-    font-size: 1.5rem;
-    margin-left: 150px;
-    padding: 10px;
-}
-.campo{
-    text-align: left;
-    border: 1px solid black;
-    background-color:aqua;
-    padding: 0 .5rem;
-    height: 7vh;
-    color: black;
-    font-size: 3vh;
-    width: 50%;
-    
-
-}
-.etiqueta{
-    background-color: rgb(255, 72, 0);
-    width: 50%;
-    height: 7vh;
-    color:aliceblue
+.cont-btn {
+  align-content: center;
 }
 
-.btn{
-    width: 5rem;
-    aspect-ratio: 2/1;
-    border-radius: 10px;
-    border: none;
-    color: aliceblue;
-    margin: 0 10px 0 10px;
+.btn {
+  width: 5rem;
+  aspect-ratio: 2/1;
+  border-radius: 10px;
+  border: none;
+  color: aliceblue;
+  margin: 0 10px 0 10px;
 }
 
-.btn.ing{
-    background-color: rgb(17, 0, 255);
-
+.btn.ing {
+  background-color: rgb(17, 0, 255);
 }
-.btn.del{
-    background-color: red;
+.btn.del {
+  background-color: red;
 }
 
-.cont-btn{
-    align-content: center;
-   
+.boton-salida {
+  border-radius: 10px;
+  border: none;
+  color: aliceblue;
+  background-color: green;
+  padding: 9px 20px 9px 20px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.link-salida {
+  color: white;
+}
+
+.boton-salida:hover {
+  background-color: rgb(24, 204, 8);
 }

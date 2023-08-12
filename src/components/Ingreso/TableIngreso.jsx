@@ -5,8 +5,9 @@ import '../Estilos/TableIngreso.css'
 const TableIngreso = ({ ingreso }) => {
 
     return <>
-        <h3 className='titulo-tabla'>Especies Ingresadas</h3>
+        
         <table border='1' className='tabla-ingreso'>
+            <h3 className='titulo-tabla'>Especies Ingresadas</h3>
             <tr>
                 <td>#</td>
                 <td>Especie</td>
