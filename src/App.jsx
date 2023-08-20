@@ -3,9 +3,10 @@ import { ReactDOM } from 'react';
 import './App.css'
 import { Route, Routes } from 'react-router-dom';
 import Menu from './components/Menu';
-import Ingreso from './components/Ingreso/Ingreso'
+import ApiIngreso from './components/Ingreso/ApiIngreso'
 import Tareas from './components/Tareas/Tareas'
 import PantallaInicial from './components/PntallaInicial';
+import Todolist from './components/Todolist';
 
 
 
@@ -18,9 +19,10 @@ function App() {
       <Menu />
       <div className='container'>
         <Routes>
-          <Route path='/ingreso' element={<Ingreso />} />
+          <Route path='/ingreso' element={<ApiIngreso />} />
           <Route path='/tareas' element={<Tareas />} />
           <Route path='/salida' element={<PantallaInicial/>} />
+          <Route path='/todolist' element={<Todolist/>} />
           <Route path='/*' element={<PantallaInicial/>} />
           
         </Routes>

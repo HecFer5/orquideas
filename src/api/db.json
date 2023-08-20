@@ -1,0 +1,24 @@
+{
+    "nombres":[
+        {
+            "id": 1,
+            "nombre":"Orquidea boca",
+            "cientifico":"Orquídea Phalaenopsis"
+        },
+        {
+            "id": 2,
+            "nombre":"Orquidea común",
+            "cientifico":"Orquídea Dendrobium"
+        },
+        {
+            "id": 3,
+            "nombre":"Orquidea blanca",
+            "cientifico":"Orquídea Calanthe"
+        },
+        {
+            "id": 3,
+            "nombre":"Orquidea blanca",
+            "cientifico":"Orquídea Calanthe"
+        }
+    ]
+}

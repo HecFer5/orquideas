@@ -52,6 +52,16 @@
   background-color: red;
 }
 
+.btn.ing:hover {
+  background-color: rgb(145, 139, 236);
+  color: black
+}
+.btn.del:hover {
+  background-color: rgb(230, 149, 149);
+  color: black
+}
+
+
 .boton-salida {
   border-radius: 10px;
   border: none;

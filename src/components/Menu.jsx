@@ -11,7 +11,7 @@ const Menu = () => {
            <main className='container-menu'>
            
             <div className="orquideas-card dos">
-                <Link to='/ingreso' className='opcion' >Ingresar</Link>
+                <Link to='/todolist' className='opcion' >Ingresar</Link>
             </div>
             <div className='orquideas-card tres'>
                 <Link to='/tareas' className='opcion'>Tareas</Link>
